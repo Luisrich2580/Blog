@@ -10,7 +10,6 @@
 
 <body>
 
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Random Blog</a>
@@ -20,12 +19,14 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active fw-bold" aria-current="page" href="#" >Home</a>
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <button class="btn btn-outline-success" type="submit">Add</button>
+                    <button class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Content</button>
                 </form>
-            </div>
+            </div> 
         </div>
     </nav>
+
+    <?php include('modal.php') ?>
