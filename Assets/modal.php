@@ -14,15 +14,6 @@
     include('./header.php')
     ?>
 
-
-    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Create A New Content</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body"> -->
     <div class="container mt-5">
         <form action="modal.php" method="POST">
             <div class="mb-3">
@@ -42,10 +33,6 @@
             <input type="submit" value="Add Content" name="add" class="btn btn-primary mt-3">
         </form> 
     </div>
-    <!-- </div>
-        </div>
-    </div>
-</div> -->
 
     <?php
 

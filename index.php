@@ -14,9 +14,9 @@
         while ($row = mysqli_fetch_assoc($show)) {
         ?>
 
-            <div class="col-md-12 col-lg-4 clickable_card" onclick="window.location.href='new.php';">
+            <div class="col-md-12 col-lg-4 clickable_card" onclick="window.location.href='Assets/new.php?id=<?php echo $row['id'] ?>';">
                 <div class="card">
-                    <img style="max-height:  234px;" src=Assets/img/<?php echo $row['image']; ?> class="card-img-top" alt="Content Image">
+                    <img style="max-height:  350px;" src=Assets/img/<?php echo $row['image']; ?> class="card-img-top" alt="Content Image">
                     <div class="card-body">
                         <h5 class="card-title text-center fw-bold"><?php echo $row['tittle'] ?></h5>
                         <p class="card-text"><?php echo $row['description'] ?></p>
