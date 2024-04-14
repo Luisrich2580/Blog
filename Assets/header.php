@@ -29,7 +29,7 @@
                     </li>
                 </ul>
                 <form class="d-flex">
-                    <a href="Assets/modal.php"><button class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Content</button></a>
+                    <a href="Assets/modal.php"><button class="btn btn-outline-warning" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Content</button></a>
                 </form>
             </div>
         </div>
