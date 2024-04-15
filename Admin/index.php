@@ -139,14 +139,14 @@
                             <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
                             <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
                         </div> -->
-                        <a href="Assets/modal.php"><button class="btn btn-outline-success" type="button"
+                        <a href="../index.php"><button class="btn btn-outline-success" type="button"
                                 data-bs-toggle="modal" data-bs-target="#exampleModal">Back To The Blog</button></a>
                     </div>
                 </div>
 
 
                 <div class="container mt-5">
-                    <form action="modal.php" method="POST">
+                    <form action="index.php" method="POST">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label fw-bold">Content Head</label>
                             <input type="text" name="title" class="form-control" id="exampleInputEmail1"
